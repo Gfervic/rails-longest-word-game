@@ -1,0 +1,37 @@
+// Place all the styles related to the Words controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400');
+
+body {
+  font-family: Roboto;
+  font-weight: 300;
+  padding: 0 24px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 400;
+  padding-top: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+.letters {
+  padding-left: 0;
+  font-size: 28px;
+  list-style: none;
+  font-family: monospace;
+  li {
+    background-color: #3498db;
+    color: white;
+    border: 1px solid #2980b9;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 4px 12px;
+    display: inline;
+  }
+}
+
+.form-pre {
+  margin-top: 2em;
+}
