@@ -15,7 +15,7 @@ class WordsController < ApplicationController
     @word = (params[:word] || "").upcase
     @included = included?(@word, @letters)
     @english_word = english_word?(@word)
-    # Not able to comput & display score as in the ruby exercise - ? for help
+    # Not able to comput score  as in the ruby exercise - ?. Time problem
   end
 
   private
